@@ -33,7 +33,7 @@ print("The list [8,1,0,1,8] becomes" , NumConvert([8,1,0,1,8]))
 
 
 print("------------------- Question 3 ----------------")
-print("This function takes a string representing a binary number and returns an integer of that number converted into a decimal.")
+print("This function takes a string representing a binary number and returns an integer of that number converted to decimal.")
 
 
 def BinConvert(bin):
