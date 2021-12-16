@@ -1,5 +1,5 @@
 print("------------------- Question 1 ----------------")
-print("this function takes a list and returns True if the items in the list are continually increasing, and False if they are not")
+print("This function takes a list and returns True if the items in the list are continually increasing, and False if they are not.")
 
 def isIncreasing(list):
   for item in range(len(list)):
@@ -32,19 +32,23 @@ print("The list [2,4,6,8,10] is continually increasing." , isIncreasing([2,4,6,8
 
 print("------------------- Question 2 ----------------")
 
+print("This function takes a list of single digit numbers and converts it into a single integer.")
+
 def NumConvert(list):
-  str = ""
-  for num in range(len(list)):
-    str += num
-  return (str)
-  
-print(NumConvert([3,5,1]))
+  string_to_int = [str(num) for num in list]
+#Convert each integer to a string
+  total = "".join(string_to_int)
+#Combine each string with a comma
+  return int(total)
 
 
+print("The list [3,5,1] becomes" , NumConvert([3,5,1]))
+print("The list [7,7,7,7,7,7,7] becomes" , NumConvert([7,7,7,7,7,7,7]))
+print("The list [8,1,0,1,8] becomes" , NumConvert([8,1,0,1,8]))
 
 
 print("------------------- Question 3 ----------------")
-print("this function takes a string representing a binary number and returns an integer of that number converted into a decimal.")
+print("This function takes a string representing a binary number and returns an integer of that number converted into a decimal.")
 
 
 def BinConvert(bin):
