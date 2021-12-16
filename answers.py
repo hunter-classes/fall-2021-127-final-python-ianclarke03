@@ -14,22 +14,6 @@ print("The list [2,4,6,8,10] is continually increasing." , isIncreasing([2,4,6,8
 
 
 
-
-
-
-
-#2 - NumConvert (20pts)
-
-#Write a function named *NumConvert*. It should take a list of single
-#digit numbers and convert it to an integer and return it.
-
-#For example NumConvert([3,5,1]) would return the number 351.
-
-#Assume all items in the list are positive single digits.
-
-#If you are totally stuck on this, DM me on Zulip and I will provide a
-#hint but you won't be able to get full credit if you take the hint.
-
 print("------------------- Question 2 ----------------")
 
 print("This function takes a list of single digit numbers and converts it into a single integer.")
@@ -45,6 +29,7 @@ def NumConvert(list):
 print("The list [3,5,1] becomes" , NumConvert([3,5,1]))
 print("The list [7,7,7,7,7,7,7] becomes" , NumConvert([7,7,7,7,7,7,7]))
 print("The list [8,1,0,1,8] becomes" , NumConvert([8,1,0,1,8]))
+
 
 
 print("------------------- Question 3 ----------------")
